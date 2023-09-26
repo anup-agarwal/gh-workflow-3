@@ -1,9 +1,7 @@
-name: pull request event to main
+name: main push event
 
 on:
-  pull_request:
-    types:
-      - opened
+  push:
     branches:
       - main
 
